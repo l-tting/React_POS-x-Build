@@ -31,10 +31,10 @@ const Register=()=>{
     }
 
     return(
-       <div>
+       <div className="relative">
         <div><NavBar/></div>
         <div>
-            <h1>This is the registerpage</h1>
+            <h1 className="">This is the registerpage</h1>
         </div>
         <div>
             <form className="space-y-4" onSubmit={postRegister}>
