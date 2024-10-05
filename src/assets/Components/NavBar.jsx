@@ -6,12 +6,13 @@ const NavBar =()=>{
     return(
 
         <>
-        <div className="flex justify-center">
+        <div className="flex justify-center  h-8  w-[70%] ml-24 ">
             <nav >
-                <ul className="flex space-x-8">
-                    <li onClick={()=>navigate('/')}>Home</li>
-                    <li onClick={()=>navigate('/login')}>Login </li>
-                    <li onClick={()=>navigate('/register')}>Register</li>
+                <ul className="flex space-x-8 text-[0.8rem] mt-2 text-white ">
+                    <li onClick={()=>navigate('/')}> <i>Home</i> </li>
+                    <li onClick={()=>navigate('/login')}> <i>Login</i> </li>
+                    <li onClick={()=>navigate('/register')}> <i>Register</i> </li>
+                    <li onClick={()=>navigate('/dashboard')}>  <i>DashBoard</i> </li>
                 </ul>
             </nav>
         </div>
